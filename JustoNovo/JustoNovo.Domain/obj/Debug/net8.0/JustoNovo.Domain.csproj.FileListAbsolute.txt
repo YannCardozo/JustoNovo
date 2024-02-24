@@ -1,0 +1,11 @@
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\bin\Debug\net8.0\JustoNovo.Domain.deps.json
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\bin\Debug\net8.0\JustoNovo.Domain.dll
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\bin\Debug\net8.0\JustoNovo.Domain.pdb
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.AssemblyInfoInputs.cache
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.AssemblyInfo.cs
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.dll
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\refint\JustoNovo.Domain.dll
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.pdb
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\ref\JustoNovo.Domain.dll

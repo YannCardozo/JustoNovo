@@ -1,0 +1,5 @@
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.AssemblyInfo.cs
+C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.csproj.CoreCompileInputs.cache
