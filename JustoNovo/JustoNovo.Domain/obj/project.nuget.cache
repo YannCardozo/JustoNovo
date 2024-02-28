@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T18FSD5oIdHvSbhISE7dClgl9NEHcyarxj2ftUMzS/Bje/r7PvBKj/aN2NnHL7G9camwn2afiUfYxTs7t0x8pA==",
+  "dgSpecHash": "cG/qILSDkuEvgnUhbId5jDf2pP/C8k+WX86ZGwiCXGyKhRgemEQb5/QnUN1++c8Qja+Ziwimm1r81Qe6FDaRXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yann_\\REPO\\Projetos\\Justo-Novo\\JustoNovo\\JustoNovo.Domain\\JustoNovo.Domain.csproj",
+  "projectFilePath": "C:\\Users\\yann_\\REPO\\Projetos\\JustoNovo\\JustoNovo\\JustoNovo.Domain\\JustoNovo.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

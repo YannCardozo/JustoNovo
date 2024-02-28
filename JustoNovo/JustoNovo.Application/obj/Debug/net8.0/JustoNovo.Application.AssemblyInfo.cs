@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JustoNovo.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27ceb11af915126b9cfe604b1fef862cf02aec18")]
 [assembly: System.Reflection.AssemblyProductAttribute("JustoNovo.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JustoNovo.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

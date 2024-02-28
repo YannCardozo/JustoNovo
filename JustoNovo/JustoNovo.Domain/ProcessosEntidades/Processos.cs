@@ -1,4 +1,5 @@
-﻿using JustoNovo.Domain.Base;
+﻿using Justo.Models;
+using JustoNovo.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,9 @@ namespace JustoNovo.Domain.ProcessosEntidades
 {
     public class Processos : Entity<int>  
     {
+        //
+
+
         //destinado a codigo do processo de acordo com a numeração do TJ
         //possivelmente pelo cod_processo faremos a distinção se em cada processo ( numeração dele ) , ele não muda.
         public string CodProcessoTJ { get; set; }
@@ -18,6 +22,10 @@ namespace JustoNovo.Domain.ProcessosEntidades
         //areas de direito do processo
         public string TipoProcesso { get; set; }
         public string Situacao { get; set; }
+        public string Valor_da_causa { get; set; }
+        //verificar no webscrapping como que será feita o armazenamento do link dos arquivos e se é possível pegar apenas o link
+        //se é possível fazer isso sem se autenticar previamente
+        public string? Link_arquivos_atualizacao { get; set; }
         public string ComarcaInicial { get; set; }
         public string ConteudoInicial { get; set; }
         //destinado a observações para incluir no processo
@@ -30,7 +38,7 @@ namespace JustoNovo.Domain.ProcessosEntidades
 
 
         //Lisconsorcio nao clientes serão a parte oposta aos clientes do advogado
-        public ICollection<ProcessosClientesReu>? ProcessosClientesReu { get; set; } 
+        public ICollection<ProcessosClientesReu>? ProcessosClientesReu { get; set; }
 
         //Lisconsorcio clientes será a parte interessada do advogado
         public ICollection<Clientes>? LisconsorcioAutor { get; set; }

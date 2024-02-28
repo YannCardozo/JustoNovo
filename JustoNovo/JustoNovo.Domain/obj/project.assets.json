@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yann_\\REPO\\Projetos\\Justo-Novo\\JustoNovo\\JustoNovo.Domain\\JustoNovo.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\yann_\\REPO\\Projetos\\JustoNovo\\JustoNovo\\JustoNovo.Domain\\JustoNovo.Domain.csproj",
       "projectName": "JustoNovo.Domain",
-      "projectPath": "C:\\Users\\yann_\\REPO\\Projetos\\Justo-Novo\\JustoNovo\\JustoNovo.Domain\\JustoNovo.Domain.csproj",
+      "projectPath": "C:\\Users\\yann_\\REPO\\Projetos\\JustoNovo\\JustoNovo\\JustoNovo.Domain\\JustoNovo.Domain.csproj",
       "packagesPath": "C:\\Users\\yann_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yann_\\REPO\\Projetos\\Justo-Novo\\JustoNovo\\JustoNovo.Domain\\obj\\",
+      "outputPath": "C:\\Users\\yann_\\REPO\\Projetos\\JustoNovo\\JustoNovo\\JustoNovo.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

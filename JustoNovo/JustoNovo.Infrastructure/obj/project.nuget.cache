@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hr/+5Epqn7TZghamqesYlpfbwHb4ajyI7JDuamowRRwk9R36LlgENoAeJy5y8WU19XXhA+G/R2X8ot0+mlWzbw==",
+  "dgSpecHash": "78Dc1/GQq8ty0IGGj8fW8oXSfDu/D7MvMBCXvgefKJi3EvkfNIg+btaioToBW2+C+MsTwWk8bJc3npnEwu5s8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yann_\\REPO\\Projetos\\Justo-Novo\\JustoNovo\\JustoNovo.Infrastructure\\JustoNovo.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\yann_\\REPO\\Projetos\\JustoNovo\\JustoNovo\\JustoNovo.Infrastructure\\JustoNovo.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yann_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\yann_\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
