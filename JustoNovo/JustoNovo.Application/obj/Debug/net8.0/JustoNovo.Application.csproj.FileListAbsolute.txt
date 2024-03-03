@@ -9,3 +9,15 @@ C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Application\obj\Debu
 C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\refint\JustoNovo.Application.dll
 C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.pdb
 C:\Users\yann_\REPO\Projetos\Justo-Novo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\ref\JustoNovo.Application.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Application.deps.json
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Application.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Application.pdb
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.AssemblyInfoInputs.cache
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.AssemblyInfo.cs
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.csproj.CoreCompileInputs.cache
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.sourcelink.json
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\refint\JustoNovo.Application.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.pdb
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\ref\JustoNovo.Application.dll
