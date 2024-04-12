@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JustoNovo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8827dd8d8e71a9e3656f66adf544c9e0d606d74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdf03d087156b7bcf71aab9d3c405e650f59b238")]
 [assembly: System.Reflection.AssemblyProductAttribute("JustoNovo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JustoNovo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
