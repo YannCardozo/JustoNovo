@@ -27,15 +27,7 @@ namespace JustoNovo.Infrastructure.Mapping
                 .ValueGeneratedOnAdd()
                 .HasColumnName("ID")
                 .HasColumnType("int");
-            //public string  { get; set; }
-            //public string  { get; set; }
-            //public string  { get; set; }
-            //public string  { get; set; }
-            //public string  { get; set; }
-            //public string  { get; set; }
-            //public string  { get; set; }
 
-            //public int  { get; set; }
             builder
                 .Property(o => o.Rua)
                 .HasColumnName("Rua")
@@ -84,9 +76,10 @@ namespace JustoNovo.Infrastructure.Mapping
                 .HasColumnType("int");
 
             builder
-                .HasOne(p => p.EnderecoCliente)
+                .HasOne(o => o.EnderecoCliente)
                 .WithOne()
-                .HasForeignKey();
+                .HasForeignKey<Endereco>(o => o.ClienteId)
+                .IsRequired(false);
 
             //entidadebase
 
@@ -97,18 +90,18 @@ namespace JustoNovo.Infrastructure.Mapping
 
             builder
                 .Property(o => o.DataAtualizacao)
-                    .HasColumnName("DataAtualizacao")
-                    .HasColumnType("datetime2");
+                .HasColumnName("DataAtualizacao")
+                .HasColumnType("datetime2");
 
             builder
                 .Property(o => o.CadastradoPor)
-                    .HasColumnName("CadastradoPor")
-                    .HasColumnType("int");
+                .HasColumnName("CadastradoPor")
+                .HasColumnType("int");
 
             builder
                 .Property(o => o.AtualizadoPor)
-                    .HasColumnName("AtualizadoPor")
-                    .HasColumnType("int");
+                .HasColumnName("AtualizadoPor")
+                .HasColumnType("int");
         }
     }
 }

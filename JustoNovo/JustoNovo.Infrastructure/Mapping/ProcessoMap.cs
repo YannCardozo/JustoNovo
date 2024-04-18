@@ -203,7 +203,10 @@ namespace JustoNovo.Infrastructure.Mapping
             //public Polo? PoloAtivo { get; set; }
             //public Polo? PoloPassivo { get; set; }
 
-
+            builder
+                .Property(o => o.AdvogadoId)
+                .HasColumnName("AdvogadoId")
+                .HasColumnType("int");
 
             builder
                 .HasMany(p => p.ProcessosCompromissos)
@@ -220,9 +223,7 @@ namespace JustoNovo.Infrastructure.Mapping
                 .WithOne()
                 .HasForeignKey<Processo>(pa => pa.AdvogadoId);
 
-            builder
-                .Property(o => o.AdvogadoId)
-                .HasColumnName("AdvogadoId");
+
 
             //entidadebase
 

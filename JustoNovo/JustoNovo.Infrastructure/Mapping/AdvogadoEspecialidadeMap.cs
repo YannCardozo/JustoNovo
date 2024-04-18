@@ -39,7 +39,7 @@ namespace Justo.Data.Mapping
 
             builder
                 .HasOne(p => p.Advogado)
-                .WithMany()
+                .WithMany(a => a.AdvogadosEspecialidades)
                 .HasForeignKey(pa => pa.AdvogadoId);
 
 

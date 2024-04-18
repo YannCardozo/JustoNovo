@@ -18,7 +18,6 @@ namespace JustoNovo.Infrastructure.Context
         public DbSet<Processo> Processos { get; set; }
         public DbSet<ProcessosAtualizacao> Processos_Atualizacoes { get; set; }
         public DbSet<ProcessosCompromissos> Processos_Compromissos { get; set; }
-        public DbSet<ProcessosDespesa> Processos_Despesas { get; set; }
         public DbSet<SiteContato> Site_Contatos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

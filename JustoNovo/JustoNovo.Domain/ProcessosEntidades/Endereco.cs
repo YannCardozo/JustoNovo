@@ -13,8 +13,8 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public string Cep { get; set; }
         public string Referencia { get; set; }
 
-        public int ClienteId { get; set; }
+        public int? ClienteId { get; set; }
 
-        public Endereco EnderecoCliente { get; set; }
+        public Cliente EnderecoCliente { get; set; }
     }
 }
