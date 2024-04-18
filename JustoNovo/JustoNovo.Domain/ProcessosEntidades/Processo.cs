@@ -14,19 +14,18 @@ namespace JustoNovo.Domain.ProcessosEntidades
     {
         public string CodPJEC { get; set; }
         public string? ObsProcesso { get; set; }
-        public DateTime DataFim { get; set; }
-
-        //NOVO  WEBSCRAPPING FUNCIONANDO
+        public DateTime? DataFim { get; set; }
 
 
-        public string MeioDeComunicacao { get; set; }
-        public DateTime MeioDeComunicacaoData { get; set; }
-        public string Prazo { get; set; }
-        public string ProximoPrazo { get; set; }
-        public string ProximoPrazoData { get; set; }
-        public string PJECAcao { get; set; }
-        public string UltimaMovimentacaoProcessual { get; set; }
-        public DateTime UltimaMovimentacaoProcessualData { get; set; }
+
+        public string? MeioDeComunicacao { get; set; }
+        public DateTime? MeioDeComunicacaoData { get; set; }
+        public string? Prazo { get; set; }
+        public string? ProximoPrazo { get; set; }
+        public string? ProximoPrazoData { get; set; }
+        public string? PJECAcao { get; set; }
+        public string? UltimaMovimentacaoProcessual { get; set; }
+        public DateTime? UltimaMovimentacaoProcessualData { get; set; }
         public string? AdvogadaCiente { get; set; }
         public string? Comarca { get; set; }
         public string? OrgaoJulgador { get; set; }
@@ -41,18 +40,19 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public Polo? PoloPassivo { get; set; }
         public string? TituloProcesso { get; set; }
         public string? PartesProcesso { get; set; }
-        public DateTime DataAbertura { get; set; }
-        public string ValorDaCausa { get; set; }
+        public DateTime? DataAbertura { get; set; }
+        public string? ValorDaCausa { get; set; }
 
 
 
 
-
+        public int AdvogadoId { get; set; }
 
 
 
         public ICollection<ProcessosCompromissos> ProcessosCompromissos = new List<ProcessosCompromissos>();
-        public ICollection<Advogado> Advogados { get; set; } = new List<Advogado>();
+        //remapeado para que um advogado esteja para um processo apenas, 1:1
+        public Advogado Advogado { get; set; } = new();
         public ICollection<ProcessosAtualizacao> ProcessosAtualizacoes { get; set; } = new List<ProcessosAtualizacao>();
 
 

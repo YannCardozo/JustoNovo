@@ -1,12 +1,12 @@
-﻿using Justo.Models;
+﻿using JustoNovo.Domain.ProcessosEntidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Justo.Data.Mapping
 {
-    public class ClientesMap : IEntityTypeConfiguration<Clientes>
+    public class ClientesMap : IEntityTypeConfiguration<Cliente>
     {
-        public void Configure(EntityTypeBuilder<Clientes> builder)
+        public void Configure(EntityTypeBuilder<Cliente> builder)
         {
             // Tabela
             builder.ToTable("Clientes");
@@ -28,135 +28,136 @@ namespace Justo.Data.Mapping
                 .HasColumnType("int");
 
             builder
-                .Property(o => o.Nome_cliente)
-                .HasColumnName("Nome_cliente")
+                .Property(o => o.Nome)
+                .HasColumnName("Nome")
                 .HasColumnType("varchar")
                 .HasMaxLength(80);
 
 
             builder
-                .Property(o => o.Cpf_cliente)
-                .HasColumnName("Cpf_cliente")
+                .Property(o => o.Cpf)
+                .HasColumnName("Cpf")
                 .HasColumnType("varchar")
                 .HasMaxLength(11);
 
             builder
-                .Property(o => o.Rg_cliente)
-                .HasColumnName("Rg_cliente")
+                .Property(o => o.Rg)
+                .HasColumnName("Rg")
                 .HasColumnType("varchar")
-                .HasMaxLength(9);
+                .HasMaxLength(9)
+                .IsRequired(false); ;
 
             builder
-                .Property(o => o.Cnh_cliente)
-                .HasColumnName("Cnh_cliente")
+                .Property(o => o.Cnh)
+                .HasColumnName("Cnh")
                 .HasColumnType("varchar")
                 .HasMaxLength(20)
                 .IsRequired(false);
 
-            //se relacionar com o envio de arquivos pelo ftp na tabela , vincular o id
-            //do envio de arquivos com o FTP
             builder
-                .Property(o => o.Contrato_social_cliente)
-                .HasColumnName("Contrato_social_cliente")
+                .Property(o => o.ContratoSocialCliente)
+                .HasColumnName("ContratoSocialCliente")
                 .HasColumnType("varchar")
                 .HasMaxLength(50)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Cnpj_cliente)
-                .HasColumnName("Cnpj_cliente")
+                .Property(o => o.Cnpj)
+                .HasColumnName("Cnpj")
                 .HasColumnType("varchar")
                 .HasMaxLength(30)
                 .IsRequired(false);
 
 
             builder
-                .Property(o => o.Certificado_reservista_cliente)
-                .HasColumnName("Certificado_reservista_cliente")
+                .Property(o => o.CertificadoReservista)
+                .HasColumnName("CertificadoReservista")
                 .HasColumnType("varchar")
                 .HasMaxLength(30)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Procuracao_representacao_legal_cliente)
-                .HasColumnName("Procuracao_representacao_legal_cliente")
+                .Property(o => o.ProcuracaoRepresentacaoLegal)
+                .HasColumnName("ProcuracaoRepresentacaoLegal")
                 .HasColumnType("varchar")
                 .HasMaxLength(30)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Genero_cliente)
-                .HasColumnName("Genero_cliente")
+                .Property(o => o.Genero)
+                .HasColumnName("Genero")
                 .HasColumnType("varchar")
                 .HasMaxLength(13);
 
             builder
-                .Property(o => o.Data_nascimento_cliente)
-                .HasColumnName("Data_nascimento_cliente")
+                .Property(o => o.DataNascimento)
+                .HasColumnName("DataNascimento")
                 .HasColumnType("datetime2");
 
             builder
-                .Property(o => o.Ocupacao_cliente)
-                .HasColumnName("Ocupacao_cliente")
+                .Property(o => o.Ocupacao)
+                .HasColumnName("Ocupacao")
                 .HasColumnType("varchar")
                 .HasMaxLength(35)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Nacionalidade_cliente)
-                .HasColumnName("Nacionalidade_cliente")
+                .Property(o => o.Nacionalidade)
+                .HasColumnName("Nacionalidade")
                 .HasColumnType("varchar")
                 .HasMaxLength(35);
 
             builder
-                .Property(o => o.Estado_civil_cliente)
-                .HasColumnName("Estado_civil_cliente")
+                .Property(o => o.EstadoCivil)
+                .HasColumnName("EstadoCivil")
                 .HasColumnType("varchar")
                 .HasMaxLength(35);
 
             builder
-                .Property(o => o.Banco_cliente)
-                .HasColumnName("Banco_cliente")
+                .Property(o => o.Banco)
+                .HasColumnName("Banco")
                 .HasColumnType("varchar")
                 .HasMaxLength(35)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Agencia_bancaria_cliente)
-                .HasColumnName("Agencia_bancaria_cliente")
+                .Property(o => o.AgenciaBancaria)
+                .HasColumnName("AgenciaBancaria")
                 .HasColumnType("varchar")
                 .HasMaxLength(35)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Telefone_cliente)
-                .HasColumnName("Telefone_cliente")
+                .Property(o => o.Telefone)
+                .HasColumnName("Telefone")
                 .HasColumnType("varchar")
                 .HasMaxLength(11);
 
             builder
-                .Property(o => o.Contato_de_confianca_cliente)
-                .HasColumnName("Contato_de_confianca_cliente")
+                .Property(o => o.Contato)
+                .HasColumnName("Contato")
                 .HasColumnType("varchar")
                 .HasMaxLength(35)
                 .IsRequired(false);
 
             builder
-                .Property(o => o.Email_cliente)
-                .HasColumnName("Email_cliente")
+                .Property(o => o.Email)
+                .HasColumnName("Email")
                 .HasColumnType("varchar")
-                .HasMaxLength(35);
+                .HasMaxLength(35)
+                .IsRequired(false);
 
             builder
-                .Property(o => o.Tipo_cliente)
-                .HasColumnName("Tipo_cliente")
+                .Property(o => o.Tipo)
+                .HasColumnName("Tipo")
                 .HasColumnType("varchar")
-                .HasMaxLength(2);
+                .HasMaxLength(2)
+                .IsRequired(false);
 
             //public Endereco Endereco_cliente { get; set; }
 
             builder
-                .HasOne(o => o.Endereco_cliente)  // Define o relacionamento
+                .HasOne(o => o.Endereco)  // Define o relacionamento
                 .WithOne()                        // O relacionamento é de um para um (um cliente tem um endereço)
                 .HasForeignKey<Endereco>(e => e.ClienteId);  // Define a chave estrangeira na entidade Endereco
 
@@ -171,23 +172,23 @@ namespace Justo.Data.Mapping
             //entidadebase
 
             builder
-                .Property(o => o.datacadastro)
-                .HasColumnName("data_cadastro")
+                .Property(o => o.DataCadastro)
+                .HasColumnName("DataCadastro")
                 .HasColumnType("datetime2");
 
             builder
-                .Property(o => o.dataatualizacao)
-                    .HasColumnName("data_atualizacao")
+                .Property(o => o.DataAtualizacao)
+                    .HasColumnName("DataAtualizacao")
                     .HasColumnType("datetime2");
 
             builder
-                .Property(o => o.cadastradopor)
-                    .HasColumnName("cadastradopor")
+                .Property(o => o.CadastradoPor)
+                    .HasColumnName("CadastradoPor")
                     .HasColumnType("int");
 
             builder
-                .Property(o => o.atualizadopor)
-                    .HasColumnName("atualizadopor")
+                .Property(o => o.AtualizadoPor)
+                    .HasColumnName("AtualizadoPor")
                     .HasColumnType("int");
             
         }

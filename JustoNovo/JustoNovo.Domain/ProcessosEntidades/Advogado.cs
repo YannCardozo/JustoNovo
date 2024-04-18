@@ -11,5 +11,6 @@ namespace JustoNovo.Domain.ProcessosEntidades
 
         public ICollection<Processo> Processos = new List<Processo>();  
 
+        public int ProcessoId { get; set; }
     }
 }

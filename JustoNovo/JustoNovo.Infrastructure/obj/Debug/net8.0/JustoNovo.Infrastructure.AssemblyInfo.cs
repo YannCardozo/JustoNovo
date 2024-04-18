@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JustoNovo.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8827dd8d8e71a9e3656f66adf544c9e0d606d74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fd2cd4f023d9539d58eada63af75bfeffa4941f")]
 [assembly: System.Reflection.AssemblyProductAttribute("JustoNovo.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JustoNovo.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

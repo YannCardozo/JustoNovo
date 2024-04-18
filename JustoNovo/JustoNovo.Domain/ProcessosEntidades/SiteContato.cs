@@ -10,7 +10,6 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public string Telefone { get; set; }
         public string Email { get; set; }
         public string Assunto { get; set; }
-        public string Arquivos { get; set; }
         public string Conteudo { get; set; }
         public string TipoCausaContato { get; set; }        
         public bool AnalisadoContato { get; set; }

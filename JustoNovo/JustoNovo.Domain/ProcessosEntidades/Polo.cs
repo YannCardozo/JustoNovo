@@ -8,10 +8,7 @@ namespace JustoNovo.Domain.ProcessosEntidades
 {
     public class Polo
     {
-        public Polo()
-        {
 
-        }
         public string? NomeParte { get; set; }
         public string? TipoParte { get; set; } 
         public string? CPFCNPJParte { get; set; }

@@ -2,7 +2,7 @@
 
 namespace JustoNovo.Domain.ProcessosEntidades
 {
-    public class Endereco 
+    public class Endereco : Entity<int>
     {      
 
         public string Rua { get; set; }
@@ -12,5 +12,9 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public string UF { get; set; }
         public string Cep { get; set; }
         public string Referencia { get; set; }
+
+        public int ClienteId { get; set; }
+
+        public Endereco EnderecoCliente { get; set; }
     }
 }
