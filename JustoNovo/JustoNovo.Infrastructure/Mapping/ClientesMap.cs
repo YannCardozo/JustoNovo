@@ -34,18 +34,18 @@ namespace Justo.Data.Mapping
                 .HasMaxLength(80);
 
 
-            builder
-                .Property(o => o.Cpf)
-                .HasColumnName("Cpf")
-                .HasColumnType("varchar")
-                .HasMaxLength(11);
+            builder.OwnsOne(x=>x.Cpf, p =>
+            {
+                p.Property(f => f.Valor);
+            }).Navigation(x=> x.Cpf);   
+               
 
             builder
                 .Property(o => o.Rg)
                 .HasColumnName("Rg")
                 .HasColumnType("varchar")
                 .HasMaxLength(9)
-                .IsRequired(false); ;
+                .IsRequired(false);
 
             builder
                 .Property(o => o.Cnh)

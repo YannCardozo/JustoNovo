@@ -9,3 +9,15 @@ C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\De
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.AssemblyInfo.cs
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.sourcelink.json
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\bin\Debug\net8.0\JustoNovo.Infrastructure.deps.json
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\bin\Debug\net8.0\JustoNovo.Infrastructure.runtimeconfig.json
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\bin\Debug\net8.0\JustoNovo.Infrastructure.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\bin\Debug\net8.0\JustoNovo.Infrastructure.pdb
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\bin\Debug\net8.0\JustoNovo.Domain.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\bin\Debug\net8.0\JustoNovo.Domain.pdb
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNov.9B813087.Up2Date
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\refint\JustoNovo.Infrastructure.dll
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.pdb
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\JustoNovo.Infrastructure.genruntimeconfig.cache
+C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Infrastructure\obj\Debug\net8.0\ref\JustoNovo.Infrastructure.dll

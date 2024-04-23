@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustoNovo.Domain", "JustoNovo.Domain\JustoNovo.Domain.csproj", "{C0431601-EEDB-4014-A944-1B8947649909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JustoNovo.Domain", "JustoNovo.Domain\JustoNovo.Domain.csproj", "{C0431601-EEDB-4014-A944-1B8947649909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustoNovo.Application", "JustoNovo.Application\JustoNovo.Application.csproj", "{38D9AE03-963B-443C-9092-01BA6CED9D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JustoNovo.Application", "JustoNovo.Application\JustoNovo.Application.csproj", "{38D9AE03-963B-443C-9092-01BA6CED9D68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C0431601-EEDB-4014-A944-1B8947649909} = {C0431601-EEDB-4014-A944-1B8947649909}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustoNovo.Infrastructure", "JustoNovo.Infrastructure\JustoNovo.Infrastructure.csproj", "{6B74428B-B7EF-4EE5-9854-C520E05D7D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JustoNovo.Infrastructure", "JustoNovo.Infrastructure\JustoNovo.Infrastructure.csproj", "{6B74428B-B7EF-4EE5-9854-C520E05D7D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustoNovo.Api", "JustoNovo.Api\JustoNovo.Api.csproj", "{A9A931CE-A5FC-4E01-BD94-63EA5D928F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JustoNovo.Api", "JustoNovo.Api\JustoNovo.Api.csproj", "{A9A931CE-A5FC-4E01-BD94-63EA5D928F04}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38D9AE03-963B-443C-9092-01BA6CED9D68} = {38D9AE03-963B-443C-9092-01BA6CED9D68}
+		{6B74428B-B7EF-4EE5-9854-C520E05D7D7E} = {6B74428B-B7EF-4EE5-9854-C520E05D7D7E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

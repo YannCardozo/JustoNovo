@@ -43,29 +43,11 @@ namespace Justo.Data.Mapping
                 .HasMaxLength(11)
                 .IsRequired(false);
 
-
-            // Mapeamento da coleção Processos
-            // Mapeamento da coleção Processos
-            builder.HasMany(a => a.Processos)
-                   .WithMany(p => p.Advogados)
-                   .UsingEntity(j =>
-                   {
-                       j.ToTable("ProcessoAdvogados"); // Nome da tabela de junção
-                       j.Property(pa => pa.Id).HasColumnName("ProcessoAdvogadoId"); // Renomeia a coluna de chave primária na tabela de junção
-                   },
-                   j => j.HasOne(pa => pa.Processo)
-                         .WithMany()
-                         .HasForeignKey(pa => pa.ProcessoId),
-                   j => j.HasOne(pa => pa.Advogado)
-                         .WithMany()
-                         .HasForeignKey(pa => pa.AdvogadoId),
-                   j =>
-                   {
-                       j.HasKey(pa => new { pa.ProcessoId, pa.AdvogadoId }); // Chaves primárias compostas
-                   });
+            builder
+                .HasMany(x => x.Processos)
+                .WithOne(x => x.Advogado);
 
 
-            // Mapeamento da coleção AdvogadosEspecialidades
             builder.HasMany(a => a.AdvogadosEspecialidades)
                    .WithOne()
                    .HasForeignKey(ae => ae.AdvogadoId)

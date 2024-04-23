@@ -54,7 +54,7 @@ namespace JustoNovo.Infrastructure.Mapping
                 builder
                     .Property(o => o.DataMovimentacao)
                     .HasColumnName("DataMovimentacao")
-                    .HasColumnType("datetime2")
+                    //.HasColumnType("datetime2")
                     .IsRequired(false);
 
                 builder

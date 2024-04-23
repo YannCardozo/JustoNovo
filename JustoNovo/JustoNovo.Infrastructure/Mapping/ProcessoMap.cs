@@ -209,23 +209,15 @@ namespace JustoNovo.Infrastructure.Mapping
                 .HasColumnType("int");
 
             builder
-                .HasMany(p => p.ProcessosCompromissos)
-                .WithOne(pc => pc.Processo)
-                .HasForeignKey(pc => pc.ProcessoId);
+               .HasMany(x => x.ProcessosCompromissos)
+               .WithOne(x => x.Processo);
 
             builder
                 .HasMany(p => p.ProcessosAtualizacoes)
                 .WithOne()
                 .HasForeignKey(pa => pa.ProcessoId);
 
-            builder
-                .HasOne(p => p.Advogado)
-                .WithOne()
-                .HasForeignKey<Processo>(pa => pa.AdvogadoId);
-
-
-
-            //entidadebase
+                    //entidadebase
 
             builder
                 .Property(o => o.DataCadastro)
