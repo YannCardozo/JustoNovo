@@ -31,16 +31,14 @@ namespace Justo.Data.Mapping
                 .HasColumnType("varchar")
                 .HasMaxLength(35);
 
-            ////chave estrangeira
             builder
-                .Property(o => o.AdvogadoId)
-                .HasColumnName("AdvogadoId")
-                .HasColumnType("int");
+                .Property(o => o.AdvogadoId);
 
             builder
                 .HasOne(p => p.Advogado)
                 .WithMany(a => a.AdvogadosEspecialidades)
-                .HasForeignKey(pa => pa.AdvogadoId);
+                .HasForeignKey(pa => pa.AdvogadoId) // Propriedade de navegação para o relacionamento
+                .IsRequired(false);
 
 
             //entidadebase

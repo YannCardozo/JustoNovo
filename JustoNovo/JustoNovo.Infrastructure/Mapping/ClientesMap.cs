@@ -1,4 +1,4 @@
-﻿using JustoNovo.Domain.ProcessosEntidades;
+﻿ using JustoNovo.Domain.ProcessosEntidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -154,20 +154,13 @@ namespace Justo.Data.Mapping
                 .HasMaxLength(2)
                 .IsRequired(false);
 
-            //public Endereco Endereco_cliente { get; set; }
+            builder
+                .Property(o => o.EnderecoId); // Especifique a propriedade de chave estrangeira
 
             builder
-                .HasOne(o => o.Endereco)  // Define o relacionamento
-                .WithOne()                        // O relacionamento é de um para um (um cliente tem um endereço)
-                .HasForeignKey<Endereco>(e => e.ClienteId);  // Define a chave estrangeira na entidade Endereco
-
-
-
-
-            //chaves estrangeiras
-            //public int EnderecoId { get; set; }
-            //public int ProcessoId { get; set; }
-
+                .HasOne(o => o.Endereco)
+                .WithOne(o => o.EnderecoCliente)
+                .HasForeignKey<Cliente>(e => e.EnderecoId); // Use a propriedade EnderecoId como chave estrangeira
 
             //entidadebase
 

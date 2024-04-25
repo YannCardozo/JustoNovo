@@ -7,7 +7,7 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public string? Nome { get; set; }
         public string? Oab { get; set; }
         public string? Cpf { get; set; }
-        public ICollection<AdvogadoEspecialidade> AdvogadosEspecialidades { get; set; } = new List<AdvogadoEspecialidade>();
+        public virtual ICollection<AdvogadoEspecialidade> AdvogadosEspecialidades { get; set; } = new List<AdvogadoEspecialidade>();
 
         public ICollection<Processo> Processos = new List<Processo>();  
 

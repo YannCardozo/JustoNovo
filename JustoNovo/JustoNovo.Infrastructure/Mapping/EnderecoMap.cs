@@ -71,14 +71,8 @@ namespace JustoNovo.Infrastructure.Mapping
                 .HasMaxLength(80);
 
             builder
-                .Property(o => o.ClienteId)
-                .HasColumnName("ClienteId")
-                .HasColumnType("int");
-
-            builder
                 .HasOne(o => o.EnderecoCliente)
-                .WithOne()
-                .HasForeignKey<Endereco>(o => o.ClienteId)
+                .WithOne(o => o.Endereco)
                 .IsRequired(false);
 
             //entidadebase

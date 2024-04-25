@@ -214,10 +214,13 @@ namespace JustoNovo.Infrastructure.Mapping
 
             builder
                 .HasMany(p => p.ProcessosAtualizacoes)
-                .WithOne()
-                .HasForeignKey(pa => pa.ProcessoId);
+                .WithOne(p => p.Processo);
 
-                    //entidadebase
+            builder
+               .HasMany(x => x.PoloPartes)
+               .WithOne(x => x.Processo);
+
+            //entidadebase
 
             builder
                 .Property(o => o.DataCadastro)

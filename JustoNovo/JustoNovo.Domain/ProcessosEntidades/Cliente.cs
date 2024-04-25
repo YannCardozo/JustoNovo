@@ -39,13 +39,10 @@ namespace JustoNovo.Domain.ProcessosEntidades
         
         public string? Tipo { get; set; }
         public string? ReuAutor { get; set; }
-
-        public Endereco? Endereco { get; set; }
-
         public int? EnderecoId { get; set; }
-        public int? ProcessoId { get; set; }
+        public virtual Endereco? Endereco { get; set; }
 
-        public int? ProcuradorId { get; set; }
+        public int? ProcessoId { get; set; }
 
 
     }

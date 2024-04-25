@@ -49,7 +49,7 @@ namespace Justo.Data.Mapping
 
 
             builder.HasMany(a => a.AdvogadosEspecialidades)
-                   .WithOne()
+                   .WithOne(a => a.Advogado)
                    .HasForeignKey(ae => ae.AdvogadoId)
                    .IsRequired(false);
 

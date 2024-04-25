@@ -15,6 +15,7 @@ namespace JustoNovo.Api
 
             var conectionstr = builder.Configuration.GetConnectionString("Default") ??
                                      throw new Exception("DefaultConnection configuration is missing");
+            
             builder.Services
                 .RegisterApplication(builder.Configuration)
                 .RegisterRepository(builder.Configuration.GetConnectionString("Default"));

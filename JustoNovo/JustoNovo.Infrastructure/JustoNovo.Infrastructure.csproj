@@ -29,5 +29,4 @@
   <ItemGroup>
     <ProjectReference Include="..\JustoNovo.Domain\JustoNovo.Domain.csproj" />
   </ItemGroup>
-
 </Project>

@@ -1,5 +1,6 @@
 ﻿using JustoNovo.Domain.ProcessosEntidades;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace JustoNovo.Infrastructure.Context
 {
@@ -11,17 +12,19 @@ namespace JustoNovo.Infrastructure.Context
 
 
         //dbset
-        //public DbSet<Advogado> Advogados { get; set; }
-        //public DbSet<AdvogadoEspecialidade> Advogados_Especialidades { get; set; }
-        //public DbSet<Cliente> Clientes { get; set; }
-        //public DbSet<Endereco> Enderecos { get; set; }
-        //public DbSet<Processo> Processos { get; set; }
-        //public DbSet<ProcessosAtualizacao> Processos_Atualizacoes { get; set; }
-        //public DbSet<ProcessosCompromissos> Processos_Compromissos { get; set; }
-        //public DbSet<SiteContato> Site_Contatos { get; set; }
-
+        public DbSet<Advogado> Advogados { get; set; }
+        public DbSet<AdvogadoEspecialidade> Advogados_Especialidades { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<Processo> Processos { get; set; }
+        public DbSet<ProcessosAtualizacao> Processos_Atualizacoes { get; set; }
+        public DbSet<ProcessosCompromissos> Processos_Compromissos { get; set; }
+        public DbSet<SiteContato> Site_Contatos { get; set; }
+        public DbSet<Polo> PolosPartes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JustoTeste;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JustoTeste;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             base.OnConfiguring(optionsBuilder);
         }
 
