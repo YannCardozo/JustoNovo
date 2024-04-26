@@ -23,8 +23,9 @@ namespace JustoNovo.Infrastructure.Context
         public DbSet<Polo> PolosPartes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JustoTeste;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JustoTeste;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            //Server = localhost\\SQLEXPRESS; Database = FundamentosBlazorServer; Trusted_Connection = True; TrustServerCertificate = true;
+            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS; Database = JustoTeste; Trusted_Connection = True; TrustServerCertificate = true");
+            //optionsBuilder.UseSqlServer("Data Source=(localdb)\\DESKTOP-QTOET89\\SQLEXPRESS;Initial Catalog=JustoTeste;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             base.OnConfiguring(optionsBuilder);
         }
 
