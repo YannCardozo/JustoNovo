@@ -1,6 +1,7 @@
 ﻿using JustoNovo.Domain.ProcessosEntidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using System.Diagnostics.Metrics;
 
 namespace JustoNovo.Infrastructure.Context
 {

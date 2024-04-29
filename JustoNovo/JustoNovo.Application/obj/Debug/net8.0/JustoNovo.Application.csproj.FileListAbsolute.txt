@@ -25,3 +25,19 @@ C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Domain.dll
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Domain.pdb
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNov.92605B8D.Up2Date
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Application.deps.json
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Application.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Application.pdb
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Domain.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\bin\Debug\net8.0\JustoNovo.Domain.pdb
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.csproj.AssemblyReference.cache
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.AssemblyInfo.cs
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.sourcelink.json
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNov.92605B8D.Up2Date
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\refint\JustoNovo.Application.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\JustoNovo.Application.pdb
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Application\obj\Debug\net8.0\ref\JustoNovo.Application.dll

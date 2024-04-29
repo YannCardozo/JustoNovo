@@ -34,11 +34,15 @@ namespace Justo.Data.Mapping
                 .HasMaxLength(80);
 
 
-            builder.OwnsOne(x=>x.Cpf, p =>
+            //builder.OwnsOne(x=>x.Cpf, p =>
+            //{
+            //    p.Property(f => f.Valor);
+            //}).Navigation(x=> x.Cpf);
+
+            builder.OwnsOne(x => x.Cpf, p =>
             {
                 p.Property(f => f.Valor);
-            }).Navigation(x=> x.Cpf);   
-               
+            }).Navigation(x => x.Cpf);
 
             builder
                 .Property(o => o.Rg)

@@ -423,7 +423,7 @@ namespace JustoNovo.Infrastructure.Migrations
                         .HasColumnType("varchar")
                         .HasColumnName("AdvogadaCiente");
 
-                    b.Property<int>("AdvogadoId")
+                    b.Property<int?>("AdvogadoId")
                         .HasColumnType("int")
                         .HasColumnName("AdvogadoId");
 
@@ -564,6 +564,9 @@ namespace JustoNovo.Infrastructure.Migrations
                         .HasName("PK_Processo");
 
                     b.HasIndex("AdvogadoId");
+
+                    b.HasIndex("CodPJEC")
+                        .IsUnique();
 
                     b.ToTable("Processos", (string)null);
                 });
@@ -835,9 +838,7 @@ namespace JustoNovo.Infrastructure.Migrations
                 {
                     b.HasOne("JustoNovo.Domain.ProcessosEntidades.Advogado", "Advogado")
                         .WithMany("Processos")
-                        .HasForeignKey("AdvogadoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AdvogadoId");
 
                     b.Navigation("Advogado");
                 });

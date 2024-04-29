@@ -36,15 +36,7 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public string? TutelaLiminar { get; set; }
         public string? Prioridade { get; set; }
         public string? Autuacao { get; set; }
-        //public Polo? PoloAtivo { get; set; }
-        //public Polo? PoloPassivo { get; set; }
 
-        //public string? NomeParte { get; set; }
-        //public string? TipoParte { get; set; } = "não informado";
-        //public string? CPFCNPJParte { get; set; }
-        //public string? NomeAdvogado { get; set; }
-        //public string? CPFAdvogado { get; set; }
-        //public string? OAB { get; set; }
 
 
 
@@ -62,16 +54,24 @@ namespace JustoNovo.Domain.ProcessosEntidades
         public DateTime? DataAbertura { get; set; }
         public string? ValorDaCausa { get; set; }
 
+        //public Polo? PoloAtivo { get; set; }
+        //public Polo? PoloPassivo { get; set; }
+
+        //public string? NomeParte { get; set; }
+        //public string? TipoParte { get; set; } = "não informado";
+        //public string? CPFCNPJParte { get; set; }
+        //public string? NomeAdvogado { get; set; }
+        //public string? CPFAdvogado { get; set; }
+        //public string? OAB { get; set; }
 
 
-
-        public int AdvogadoId { get; set; }
+        public int? AdvogadoId { get; set; }
 
 
 
         public ICollection<ProcessosCompromissos> ProcessosCompromissos = new List<ProcessosCompromissos>();
         //remapeado para que um advogado esteja para um processo apenas, 1:1
-        public Advogado Advogado { get; set; } = new();
+        public Advogado? Advogado { get; set; } = new();
         public ICollection<ProcessosAtualizacao> ProcessosAtualizacoes { get; set; } = new List<ProcessosAtualizacao>();
         public ICollection<Polo> PoloPartes { get; set; } = new List<Polo>();
 

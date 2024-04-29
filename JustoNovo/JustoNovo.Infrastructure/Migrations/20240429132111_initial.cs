@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace JustoNovo.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Teste : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -131,7 +131,7 @@ namespace JustoNovo.Infrastructure.Migrations
                     PartesProcesso = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: true),
                     DataAbertura = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ValorDaCausa = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: true),
-                    AdvogadoId = table.Column<int>(type: "int", nullable: false),
+                    AdvogadoId = table.Column<int>(type: "int", nullable: true),
                     DataCadastro = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CadastradoPor = table.Column<int>(type: "int", nullable: false),
                     DataAtualizacao = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -144,8 +144,7 @@ namespace JustoNovo.Infrastructure.Migrations
                         name: "FK_Processos_Advogado_AdvogadoId",
                         column: x => x.AdvogadoId,
                         principalTable: "Advogado",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "ID");
                 });
 
             migrationBuilder.CreateTable(
@@ -308,6 +307,12 @@ namespace JustoNovo.Infrastructure.Migrations
                 name: "IX_Processos_AdvogadoId",
                 table: "Processos",
                 column: "AdvogadoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Processos_CodPJEC",
+                table: "Processos",
+                column: "CodPJEC",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProcessosAtualizacao_ProcessoId",

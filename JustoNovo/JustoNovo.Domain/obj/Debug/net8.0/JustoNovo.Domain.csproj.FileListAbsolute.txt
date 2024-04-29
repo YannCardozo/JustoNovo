@@ -22,3 +22,16 @@ C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\refint\JustoNovo.Domain.dll
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.pdb
 C:\Users\yann_\REPO\Projetos\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\ref\JustoNovo.Domain.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\bin\Debug\net8.0\JustoNovo.Domain.deps.json
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\bin\Debug\net8.0\JustoNovo.Domain.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\bin\Debug\net8.0\JustoNovo.Domain.pdb
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.csproj.AssemblyReference.cache
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.AssemblyInfo.cs
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.sourcelink.json
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\refint\JustoNovo.Domain.dll
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\JustoNovo.Domain.pdb
+C:\Users\Windows 11\Desktop\Repo\JustoNovo\JustoNovo\JustoNovo.Domain\obj\Debug\net8.0\ref\JustoNovo.Domain.dll

@@ -36,6 +36,8 @@ namespace JustoNovo.Infrastructure.Mapping
                 .HasColumnType("varchar")
                 .HasMaxLength(30);
 
+            builder.HasIndex(p => p.CodPJEC).IsUnique();
+
             builder
                 .Property(o => o.ObsProcesso)
                 .HasColumnName("ObsProcesso")
@@ -206,7 +208,8 @@ namespace JustoNovo.Infrastructure.Mapping
             builder
                 .Property(o => o.AdvogadoId)
                 .HasColumnName("AdvogadoId")
-                .HasColumnType("int");
+                .HasColumnType("int")
+                .IsRequired(false); 
 
             builder
                .HasMany(x => x.ProcessosCompromissos)

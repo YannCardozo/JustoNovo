@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JustoNovo.Infrastructure.Migrations
 {
     [DbContext(typeof(JustoDbContext))]
-    [Migration("20240425040213_Teste")]
-    partial class Teste
+    [Migration("20240429132111_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -426,7 +426,7 @@ namespace JustoNovo.Infrastructure.Migrations
                         .HasColumnType("varchar")
                         .HasColumnName("AdvogadaCiente");
 
-                    b.Property<int>("AdvogadoId")
+                    b.Property<int?>("AdvogadoId")
                         .HasColumnType("int")
                         .HasColumnName("AdvogadoId");
 
@@ -567,6 +567,9 @@ namespace JustoNovo.Infrastructure.Migrations
                         .HasName("PK_Processo");
 
                     b.HasIndex("AdvogadoId");
+
+                    b.HasIndex("CodPJEC")
+                        .IsUnique();
 
                     b.ToTable("Processos", (string)null);
                 });
@@ -838,9 +841,7 @@ namespace JustoNovo.Infrastructure.Migrations
                 {
                     b.HasOne("JustoNovo.Domain.ProcessosEntidades.Advogado", "Advogado")
                         .WithMany("Processos")
-                        .HasForeignKey("AdvogadoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AdvogadoId");
 
                     b.Navigation("Advogado");
                 });
